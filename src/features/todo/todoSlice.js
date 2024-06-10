@@ -2,7 +2,9 @@ import { createSlice,nanoid } from "@reduxjs/toolkit";
 
 const initialState = {
     // initial elements inside the store
-    todos: [{id:1,text: 'Learn React'},{id:2,text: 'Learn Java  '}]
+    todos: [
+        // {id:1,text: 'Learn React'},{id:2,text: 'Learn Java  '}
+    ]
 }
 
 export const todoSlice = createSlice({
